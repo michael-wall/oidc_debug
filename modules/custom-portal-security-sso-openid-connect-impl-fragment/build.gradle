@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	
+	compileOnly group: 'org.ow2.asm', name: 'asm', version: '5.0.4'	
+	compileOnly group: 'com.nimbusds', name: 'oauth2-oidc-sdk', version: '8.11'	
+	compileOnly group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '8.14.1'
+	compileOnly group: 'com.nimbusds', name: 'lang-tag', version: '1.4'
+	compileOnly group: 'net.minidev', name: 'json-smart', version: '2.4.10'
+}

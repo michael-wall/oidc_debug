@@ -1,0 +1,21 @@
+Bundle-Name: custom-portal-security-sso-openid-connect-impl
+Bundle-SymbolicName: custom.portal.security.sso.openid.connect.impl
+Bundle-Version: 1.0.0
+Import-Package:\
+	!com.google.crypto.tink.*,\
+	\
+	!net.shibboleth.utilities.*,\
+	\
+	!org.bouncycastle.*,\
+	\
+	!org.cryptomator.siv.*,\
+	\
+	!org.joda.time.*,\
+	\
+	!org.opensaml.*,\
+	\
+	!net.jcip.annotations.*,\
+	\
+	!org.objectweb.asm.*,\
+	*
+Export-Package: custom.openid.connect

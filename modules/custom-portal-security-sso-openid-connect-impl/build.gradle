@@ -1,0 +1,12 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "7.4.13.u92"
+	
+	compileOnly group: "com.liferay", name: "com.liferay.portal.security.sso.openid.connect.api", version: "11.0.1"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.security.sso.openid.connect.impl", version: "7.0.27"
+
+	compileOnly group: 'org.ow2.asm', name: 'asm', version: '5.0.4'	
+	compileOnly group: 'com.nimbusds', name: 'oauth2-oidc-sdk', version: '8.11'	
+	compileOnly group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '8.14.1'
+	compileOnly group: 'com.nimbusds', name: 'lang-tag', version: '1.4'
+	compileOnly group: 'net.minidev', name: 'json-smart', version: '2.4.10'
+}

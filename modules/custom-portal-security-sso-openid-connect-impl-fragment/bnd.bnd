@@ -1,0 +1,35 @@
+Bundle-Name: custom-portal-security-sso-openid-connect-impl-fragment
+Bundle-SymbolicName: custom.portal.security.sso.openid.connect.impl.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.portal.security.sso.openid.connect.impl
+Import-Package:\
+	!com.google.crypto.tink.*,\
+	\
+	!net.shibboleth.utilities.*,\
+	\
+	!org.bouncycastle.*,\
+	\
+	!org.cryptomator.siv.*,\
+	\
+	!org.joda.time.*,\
+	\
+	!org.opensaml.*,\
+	\
+	!net.jcip.annotations.*,\
+	\
+	!org.objectweb.asm.*,\
+	*
+Export-Package:\
+com.liferay.portal.security.sso.openid.connect.internal,\
+com.liferay.portal.security.sso.openid.connect.internal.servlet.filter,\
+com.liferay.portal.security.sso.openid.connect.internal.session.manager,\
+com.liferay.portal.security.sso.openid.connect.internal.util,\
+com.liferay.portal.security.sso.openid.connect.internal.configuration.admin.service,\
+com.nimbusds.oauth2.sdk.*,\
+com.nimbusds.openid.connect.sdk.*,\
+com.nimbusds.common.contenttype,\
+com.nimbusds.secevent.sdk.claims,\
+com.nimbusds.langtag,\
+com.nimbusds.jwt.*,\
+com.nimbusds.jose.*,\
+net.minidev.*
