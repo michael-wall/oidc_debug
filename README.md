@@ -7,6 +7,8 @@ The fragment module exports some internal Liferay packages as well as exporting 
 
 The other module provides a custom OSGi component implementation of OpenIdConnectAuthenticationHandler and a custom version of non-OSGi class OpenIdConnectTokenRequestUtil, both have additional DEBUG logging.
 
+Both custom classes are based on the DXP 7.4 U92 versions and have been tested locally with JDK 8.
+
 The logging level of package custom.openid.connect should be set to DEBUG to see the additional logging.
 
 
