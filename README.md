@@ -6,6 +6,8 @@ The other module provides a custom OSGi component implementation of OpenIdConnec
 
 Both custom classes are based on the DXP 7.4 U92 versions and have been tested locally with JDK 8.
 
+**The custom modules should be tested in a non-production environment before applying them in production.**
+
 **Modules**
 
 1. custom.portal.security.sso.openid.connect.impl.fragment-1.0.0.jar
